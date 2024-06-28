@@ -1,0 +1,34 @@
+root@ubuntu22:/home/shunsuke/デスクトップ# apt autoremove
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージは「削除」されます:
+  libwpe-1.0-1 libwpebackend-fdo-1.0-1 linux-image-6.5.0-18-generic linux-modules-6.5.0-18-generic
+  linux-modules-extra-6.5.0-18-generic
+アップグレード: 0 個、新規インストール: 0 個、削除: 5 個、保留: 3 個。
+この操作後に 611 MB のディスク容量が解放されます。
+続行しますか? [Y/n] y
+(データベースを読み込んでいます ... 現在 248016 個のファイルとディレクトリがインストールされています。)
+libwpebackend-fdo-1.0-1:amd64 (1.14.2-0ubuntu0.22.04.1) を削除しています ...
+libwpe-1.0-1:amd64 (1.14.0-0ubuntu0.22.04.1) を削除しています ...
+linux-image-6.5.0-18-generic (6.5.0-18.18~22.04.1) を削除しています ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-6.5.0-18-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.5.0-41-generic
+Found initrd image: /boot/initrd.img-6.5.0-41-generic
+Found linux image: /boot/vmlinuz-6.5.0-35-generic
+Found initrd image: /boot/initrd.img-6.5.0-35-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+linux-modules-extra-6.5.0-18-generic (6.5.0-18.18~22.04.1) を削除しています ...
+linux-modules-6.5.0-18-generic (6.5.0-18.18~22.04.1) を削除しています ...
+libc-bin (2.35-0ubuntu3.8) のトリガを処理しています ...
+root@ubuntu22:/home/shunsuke/デスクトップ#

@@ -1,0 +1,27 @@
+Linux コマンド一覧
+
+ls
+cd
+pwd
+chmod
+mv
+touch
+find
+grep
+df
+diff
+gzip
+tar
+mkdir
+rm
+ps
+head
+tail
+less
+more
+cat
+echo
+whoami
+apt
+sudo
+su
