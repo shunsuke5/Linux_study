@@ -1,0 +1,22 @@
+docker コマンド一覧
+
+docker image ls
+　→ 取得済みのdockerイメージの一覧を表示できる。
+
+docker ps
+　→ コンテナ一覧を表示する。
+
+docker container run イメージ名
+　→ dockerイメージを使ってdockerコンテナを起動する。
+
+    --name　→ コンテナ名を指定する。
+
+    -d　→ コンテナをバックグラウンドで実行する。
+
+    -p　→ コンテナのポート番号と、サーバーのポート番号を紐付ける。
+
+docker container stop コンテナ名
+　→ dockerコンテナを停止する。
+
+docker container start コンテナ名
+　→ 作成済みのコンテナを起動する。

@@ -1,0 +1,15 @@
+docker メモ
+
+・dockerインストール時に参考にしたサイト
+　https://kinsta.com/jp/blog/install-docker-ubuntu/
+　https://www.kagoya.jp/howto/cloud/container/dockerubuntu/
+　ちなみにwindowsでもdocker desktopでdockerを使うことができる。
+
+・dockerイメージとは、dockerコンテナの動作環境となるテンプレートファイルのこと。
+　dockerイメージにはOSやアプリケーションからアプリケーションの実行に使われるコマンド、メタデータまで含まれる。
+
+　dockerイメージとdockerコンテナは混同しやすいが、dockerイメージはdockerコンテナを動作させるのに使うテンプレートファイルを指す。
+　それに対して、dockerコンテナはテンプレートファイルに基づいてアプリケーションを実行する環境、インスタンスである。
+　1つのdockerイメージを実行すると、1つのdockerコンテナが作成される。
+
+・
