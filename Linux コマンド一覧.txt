@@ -1,0 +1,36 @@
+Linux コマンド一覧
+
+df
+→ 容量を確認する。
+
+vim
+→ ファイルを編集する。
+
+    vim tutor
+    　→ vimのチュートリアルを表示する。
+
+ls
+cd
+pwd
+chmod
+mv
+touch
+find
+grep
+df
+diff
+gzip
+tar
+mkdir
+rm
+ps
+head
+tail
+less
+more
+cat
+echo
+whoami
+apt
+sudo
+su

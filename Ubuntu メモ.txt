@@ -5,4 +5,12 @@ Ubuntu メモ
 　しかし、かな状態から半角英数への切り替えが半角全角キーではできていない(無変換キーじゃないとできない)ため、
 　これの解決方法も見つけたい。
 　
+<<<<<<< HEAD
+=======
+・vscodeでGithubと連携させるときに、git push -u origin master コマンドを打つ実行すると、「Missing or invalid credentials.」エラーが出た。
+　「export GIT_ASKPASS=」コマンドを打つと、プッシュ時にユーザーネームとパスワードを求められるようになった。
+　このパスワードで新たに作成したトークンを入力すれば、無事にプッシュができた。
+　参考サイト　https://qiita.com/obilixilido/items/046d3224a214d793c0b3
+
+>>>>>>> develop
 ・
